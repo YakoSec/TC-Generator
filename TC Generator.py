@@ -2,7 +2,11 @@
 # Instagram = @YakoSec
 
 import random
-
-print("Coder: Mr. Yako \nTC Kimlik numaranız oluşturuldu: ")
+import colorama
+from colorama import Fore, Back, Style
+colorama.init()
+print(Fore.YELLOW)
+print("Coder: Mr. Yako \nInstagram: @YakoSec")
 x = random.randint(1000000000, 100000000000)
-print(x)
+print(Fore.RED)
+print("TC Kimlik numaranız oluşturuldu:" , x)
